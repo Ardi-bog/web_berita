@@ -1,0 +1,223 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: rgb(255, 255, 255);
+}
+.placeholder{
+	width:500px;
+	height:1050px;
+	margin:0px auto;
+	padding:100px 0;
+	padding: 100px;
+	background-color: white;
+}
+h2{
+	text-align: center-right;
+}
+form{
+	width:50%;
+	height:50%;
+}
+div input{
+	float:left;
+	width:100%;
+	padding:20px;
+	border-radius:0px;
+	border:0;
+	border-bottom:1px solid #e3e3e3 ;
+	
+	
+}
+.submit{
+	margin-top: 20px;
+	background-color:rgb(245, 245, 245);
+	color: white;
+	border:0;
+}
+.salah{
+	margin-top:10px;
+	width:100%;
+	text-align:center;
+	color:red;
+	font-size:12px;
+	position: absolute;
+	top: 300px;
+	left: 0px;
+}
+.grup{
+	height: 225px;
+}
+.grup1{
+	height: 20px;
+	padding: 20px;
+	border-bottom:1px solid #e3e3e3 ;
+}
+.grup1 select,.grup1 label{
+	width: 50%;
+	float: left;
+}
+select{
+	border: none;
+	border-bottom:1px solid #e3e3e3
+}
+.grup2 input{
+	width:48%;
+	float:left;
+	border: none;
+}
+.bd{
+	margin-left: 2px;
+	padding: 18px;
+}
+.grup2{
+	width: 100%;
+	height: 60px;
+	border-bottom:1px solid #e3e3e3 ;
+}
+.hold{
+	width: 120px;
+	margin:auto;
+	height: 50px;
+}
+.grup3 input{
+	display: none;
+}
+
+.grup3 label{
+	width: 40%;
+	height: 50px;
+	float: left;
+	text-align: center;
+	line-height: 51px;
+	color: white;
+	background-color: rgb(209, 209, 209);
+}
+.bd2{
+	position: relative;
+	margin-left: 24px;
+}
+.grup3{
+	padding: 20px 0px;
+	border-bottom:1px solid #e3e3e3;
+}
+.grup3 #l:checked + #label,.grup3 #p:checked + #label{
+	background-color: rgb(107, 216, 216);
+
+}
+
+.grup4{
+	height: 205px;
+}
+.grup4 h2{
+	margin-top: 0px;
+}
+.grup4 input{
+	display: none;
+}
+
+
+.grup4 label{
+	width: 50%;
+	height: 50px;
+	float: left;
+	text-align: center;
+	line-height: 51px;
+	color: white;
+	background-color: rgb(209, 209, 209);
+}
+.grup4{
+	padding: 20px 0px;
+	border-bottom:1px solid #e3e3e3;
+}
+.grup4 #h1:checked + #label2,.grup4 #h2:checked + #label2,.grup4 #h3:checked + #label2,.grup4 #h4:checked + #label2,.grup4 #h5:checked + #label2{
+	background-color: rgb(107, 216, 216);
+
+} 
+
+textarea{
+	width: 401px;
+    margin: 0px;
+    height: 136px;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 50px;
+    max-height: 100px;
+}
+.grup5 select{
+	width: 100%;
+	height: 120px;
+	overflow: hidden;
+}
+.grup5 select option{
+	padding: 10px;
+	width: 45%;
+	float: left;
+	text-align: center;
+}
+input[type="text"]:focus,input[type="number"]:focus,input[type="email"]:focus{
+	width: 99%;
+	padding-left:18px; 
+	outline: none;
+	border-left: 2px solid orange;
+
+}
+.grup2 input[type="text"]:focus{
+	width: 48%;
+}
+
+select:focus,option:focus{
+	outline: none;
+}
+
+.wrapper{
+	width: 700px;
+    height: 550px;
+    margin: 100px auto;
+    background-color: white;
+    padding: 100px;
+}
+.lab{
+	width: 20%;
+    height: 18px;
+    float: left;
+    margin-right: 50px;
+    margin-top: 10px;
+    background-color: #5ceaaf;
+    padding: 10px; 
+    color: white;
+}
+.isi{
+	width: 58%;
+    height: 20px;
+    padding: 10px;
+    float: left;
+    margin-top: 10px;
+    border-bottom: 2px solid #0000002e;
+    border-radius: 0px;
+}
+/*.sc{
+	overflow-y: scroll;
+}	*/
+h1{
+	margin-top: 0px;
+	text-align: center;
+}
+a{
+	width: 100px;
+	height: 50px;
+	text-decoration: none;
+	color: white;
+	background-color: rgb(239, 179, 70);
+	position: absolute;
+	top: 850px;
+	text-align: center;
+	line-height: 50px;
+}
+.kembali{
+	left: 43%;
+	background-color: rgb(239, 179, 70);
+}
+.keluar{
+	left: 50%;
+	background-color: rgb(239, 70, 70);
+}
